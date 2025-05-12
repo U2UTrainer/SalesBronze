@@ -1,5 +1,33 @@
 {
   "properties": {
-    "activities": []
+    "activities": [
+      {
+        "name": "Office 365 Outlook1",
+        "type": "Office365Outlook",
+        "dependsOn": [],
+        "typeProperties": {
+          "inputs": {
+            "method": "post",
+            "path": "/v2/Mail",
+            "body": {
+              "To": "jurgen@u2u.be",
+              "Subject": "dscdscds",
+              "Body": "<p>sdcdscds@{pipeline().DataFactory}</p>",
+              "Sensitivity": "",
+              "Importance": "Normal"
+            }
+          }
+        }
+      }
+    ],
+    "logicAppsConnectionPayload": {
+      "id": "/subscriptions/a9ff4c15-ab87-4bd4-8807-a918039fe8a9/resourceGroups/connections-a305f81d-4c29-4286-9a40-347ad87d851e/providers/Microsoft.Web/connections/1_b9ebcb42-6004-42a5-99b4-fc5dc8dadb82_25715082-a40a-41d7-a5c1-35a64d096cb5",
+      "properties": {
+        "api": {
+          "name": "office365",
+          "id": "/subscriptions/a9ff4c15-ab87-4bd4-8807-a918039fe8a9/providers/Microsoft.Web/locations/northeurope/managedApis/office365"
+        }
+      }
+    }
   }
 }
