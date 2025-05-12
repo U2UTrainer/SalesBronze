@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "DeleteMe"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c8afbf8a-a233-9e7b-403f-f44a1f5241fe"
+  }
+}
